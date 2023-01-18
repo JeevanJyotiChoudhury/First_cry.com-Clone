@@ -1,5 +1,5 @@
 import React from "react";
-import style_nb from "./Navbar.module.css";
+import style_nb from "./Styles/Navbar.module.css";
 import { IoIosSearch } from "react-icons/io";
 import { VscLocation } from "react-icons/vsc";
 import { AiOutlineHeart } from "react-icons/ai";
