@@ -2,16 +2,17 @@ import React from 'react';
 import './App.css';
 import Bottomnavbar from './Components/Bottomnavbar';
 import Footer from './Components/Footer';
+import Topslider from './Components/Homepagecomponents/Topslider';
 import Navbar from './Components/Navbar';
 import data from "./db.json"
 
 function App() {
-  console.log(data.top_slider)
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/>
       <Bottomnavbar/>
-      <Footer/>
+      <Footer/> */}
+      <Topslider/>
     </div>
   );
 }
