@@ -1,0 +1,394 @@
+{
+  "top_slider": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/banners/giveaway_desktop1673923946732.webp"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/banners/mktng_hp_gear_17thjan1673888536417.webp"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/banners/merchf_roi_hp_1201231673600853019.webp"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/banners/21st-dec_bbcs_desktop1673858912895.webp"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/banners/hp_mktg_p11_prc35_desktop1673499522420.gif"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/banners/hp_mktg_p01_buy3_soi_desktop1673438839862.webp"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/banners/mktng_hp_diapers_17thjan1673873839920.webp"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/banners/hp_dp_mpp_up45_jan_994x3991673241153530.webp"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/banners/hp_mktg_p04_lightening_deal_desktop1673196696789.webp"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/banners/sebamed_baby_hp-banner_994x399-21669803750324.webp"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/banners/mktng_hp_au_17thjan1673891538285.gif"
+    }
+  ],
+  "PREMIUM_BOUTIQUES": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/28855.webp",
+      "details": "The Cozy Corner | 2 - 12+Y",
+      "category": "Sets & Suits, Tees & More"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/28856.webp",
+      "details": "Fill Up Your Carts With Carter's I Up to 24M",
+      "category": "Full Sleeves Tees, Onesies & More"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/28857.webp",
+      "details": "Stay Fit, Stay Strong | 4 - 12+Y",
+      "category": "Athleisure & Sportswear"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/28860.webp",
+      "details": "All-Time Fun",
+      "category": "Baby Gear | Nursery | Toys & Gaming"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/28859.webp",
+      "details": "The Lounge Storyl Up To 12+Y",
+      "category": "Pajamas, Leggings & More"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/28858.webp",
+      "details": "Step Up The Fashion Game I Up To 12+Y",
+      "category": "Sets & Suits, Accessories & More"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/28851.webp",
+      "details": "All That's stylish I Up To 12+ Y",
+      "category": "Shop From Hand-Picked Styles"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/28850.webp",
+      "details": "Hello Discounts I Up To 12+Y",
+      "category": "Best Of Styles"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/28849.webp",
+      "details": "Gracefully Dressed! I Up To 12+Y",
+      "category": "Pretty Dresses & Smatt Formals"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/28848.webp",
+      "details": "Organic Collection I Up To 8+Y",
+      "category": "Tees, Bottoms, Frocks & More"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/28853.webp",
+      "details": "O For Organic I Up To 12Y",
+      "category": "Sets & Suits, Tops & Tees, Sweatshirts & More"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/boutique/670x670/28852.webp",
+      "details": "Chill Vibes I Up To 12+Y",
+      "category": "Cool Sweaters, Sweatshirts, Jeans & Shirts"
+    }
+  ],
+
+  "spirit_of_india": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_03.jpg"
+    }
+  ],
+  "shades_of_color": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_05.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_06.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_07.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_08.jpg"
+    }
+  ],
+  "style_parade": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_18.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_19.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_20.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_21.jpg "
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_22.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_23.jpg"
+    }
+  ],
+  "brands": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_19.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_20.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_21.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_22.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_23.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_1111101032022_24.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_25.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_26.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_27.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring__1111101032022_28.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_29.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_30.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_31.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_32.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_33.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_34.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_35.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_36.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_37.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_38.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/wingsfield_26_09_2022.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring__1111101032022_40.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring__1111101032022_41.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_01032022_42.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_12052022_43.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_12052022_44.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_new_desktop_spring_12052022_45.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_12052022_46_EARTHY_TOUCH.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_12052022_47.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring__1111112052022_48.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_new_12052022_49.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_12052022_50.jpg"
+    }
+  ],
+  "occasion_edit": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_25.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_26.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_27.jpg"
+    }
+  ],
+  "daily_essentials": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_01.jpg"
+    }
+  ],
+  "dipers": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_03.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_04.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_05.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_06.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_07.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_08.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_09.jpg"
+    }
+  ],
+  "bath": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_11.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_12.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_13.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_14.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_15.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_16.jpg"
+    },
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_17.jpg"
+    }
+  ],
+  "feeding": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_feeding_&_kids_food_051122_01.jpg"
+    }
+  ],
+  "toys": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate//soi_desktop_160123_01.jpg"
+    }
+  ],
+  "gear_activity":[
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_18.jpg"
+    }
+  ],
+  "baby_access":[
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_19.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_20.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_21.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_22.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_23.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_24.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_25.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_26.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_27.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_28.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_29.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_30.jpg"
+    }
+  ],
+  "library":[
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate//soi_desktop_160123_96.jpg"
+    }
+  ],
+  "baby_care":[
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_32.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_33.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_34.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_35.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_36.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_37.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_38.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_39.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_40.jpg"
+    },
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_41.jpg"
+    }
+  ],
+  "moms":[
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_moms_&_maternity_051122_01.jpg"
+    }
+  ]
+}
