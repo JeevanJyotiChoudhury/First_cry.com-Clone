@@ -99,7 +99,12 @@
 
   "spirit_of_india": [
     {
-      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_03.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/1920_447_desktop_SOI_2023_01.jpg"
+    }
+  ],
+  "shades_of_color_banner": [
+    {
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/1920_179_desktop_SOI_2023_05.jpg"
     }
   ],
   "shades_of_color": [
@@ -114,6 +119,11 @@
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_08.jpg"
+    }
+  ],
+  "style_parade_banner":[
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/1920_220_desktop_SOI_2023_17.jpg"
     }
   ],
   "style_parade": [
@@ -134,6 +144,11 @@
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_23.jpg"
+    }
+  ],
+  "brand_banner":[
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/1920_228_desktop_SOI_2023_18.jpg"
     }
   ],
   "brands": [
@@ -234,6 +249,11 @@
       "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_spring_12052022_50.jpg"
     }
   ],
+  "occasion_banner":[
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/1920_213_desktop_SOI_2023_24.jpg"
+    }
+  ],
   "occasion_edit": [
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/fashion_desktop_SOI_060123_25.jpg"
@@ -248,6 +268,11 @@
   "daily_essentials": [
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_01.jpg"
+    }
+  ],
+  "dipers_banner":[
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_02.jpg"
     }
   ],
   "dipers": [
@@ -271,6 +296,11 @@
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_09.jpg"
+    }
+  ],
+  "bath_banner":[
+    {
+      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_essentials_051122_10.jpg"
     }
   ],
   "bath": [
@@ -306,89 +336,89 @@
       "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate//soi_desktop_160123_01.jpg"
     }
   ],
-  "gear_activity":[
+  "gear_activity": [
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_18.jpg"
     }
   ],
-  "baby_access":[
+  "baby_access": [
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_19.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_19.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_20.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_20.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_21.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_21.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_22.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_22.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_23.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_23.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_24.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_24.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_25.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_25.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_26.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_26.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_27.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_27.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_28.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_28.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_29.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_29.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_30.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_30.jpg"
     }
   ],
-  "library":[
+  "library": [
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate//soi_desktop_160123_96.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate//soi_desktop_160123_96.jpg"
     }
   ],
-  "baby_care":[
+  "baby_care": [
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_32.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_32.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_33.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_33.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_34.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_34.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_35.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_35.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_36.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_36.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_37.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_37.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_38.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_38.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_39.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_39.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_40.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_40.jpg"
     },
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_41.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/soi_desktop_feeding_&_kids_food_160123_41.jpg"
     }
   ],
-  "moms":[
+  "moms": [
     {
-      "image":"https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_moms_&_maternity_051122_01.jpg"
+      "image": "https://cdn.fcglcdn.com/brainbees/images/cattemplate/winter_desktop_moms_&_maternity_051122_01.jpg"
     }
   ]
 }
