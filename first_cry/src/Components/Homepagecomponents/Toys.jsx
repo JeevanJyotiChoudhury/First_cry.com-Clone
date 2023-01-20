@@ -1,17 +1,16 @@
-import React from 'react'
+import React from "react";
 import toy_data from "../../db.json";
+import { Box, Grid, GridItem, Image } from "@chakra-ui/react";
 
 const Toys = () => {
-    let toydata = toy_data.toys;
+  let toydata = toy_data.toys;
   return (
-    <div>
-        {toydata.map((el)=>{
-        return (
-            <img src={el.image} alt="" />
-        )
-    })}
-    </div>
-  )
-}
+    <Box w={"90%"} m={"auto"}>
+      {toydata.map((el) => {
+        return <Image src={el.image} alt="" />;
+      })}
+    </Box>
+  );
+};
 
-export default Toys
+export default Toys;

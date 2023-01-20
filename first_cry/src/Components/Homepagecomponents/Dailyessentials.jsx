@@ -1,14 +1,15 @@
 import React from "react";
 import essentials_data from "../../db.json";
+import { Box, Grid, GridItem, Image } from "@chakra-ui/react";
 
 const Dailyessentials = () => {
   let essentialsdata = essentials_data.daily_essentials;
   return (
-    <div>
+    <Box w={"90%"} m={"auto"}>
       {essentialsdata.map((el) => {
-        return <img src={el.image} alt="" />;
+        return <Image src={el.image} alt="" />;
       })}
-    </div>
+    </Box>
   );
 };
 

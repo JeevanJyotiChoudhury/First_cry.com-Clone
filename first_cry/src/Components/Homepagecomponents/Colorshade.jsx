@@ -1,7 +1,7 @@
 import React from "react";
 import shadebanner_data from "../../db.json";
 import shade_data from "../../db.json";
-import { Box, Grid, GridItem, Text, Image } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Image } from "@chakra-ui/react";
 
 const Colorshade = () => {
   let shadebannerdata = shadebanner_data.shades_of_color_banner;

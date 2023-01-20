@@ -1,23 +1,28 @@
 import React from "react";
 import bandbanner_data from "../../db.json";
 import band_data from "../../db.json";
+import { Box, Grid, GridItem, Image } from "@chakra-ui/react";
 
 const Brands = () => {
   let bandbannerdata = bandbanner_data.brand_banner;
   let banddata = band_data.brands;
   return (
-    <div>
-      <div>
+    <Box w={"90%"} m={"auto"}>
+      <Box>
         {bandbannerdata.map((el) => {
-          return <img src={el.image} alt="" />;
+          return <Image src={el.image} alt="" />;
         })}
-      </div>
-      <div>
+      </Box>
+      <Grid templateColumns="repeat(8, 1fr)">
         {banddata.map((elem) => {
-          return <img src={elem.image} alt="" />;
+          return (
+            <GridItem>
+              <Image src={elem.image} alt="" />
+            </GridItem>
+          );
         })}
-      </div>
-    </div>
+      </Grid>
+    </Box>
   );
 };
 
