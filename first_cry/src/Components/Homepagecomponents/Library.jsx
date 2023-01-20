@@ -1,15 +1,16 @@
-import React from 'react'
+import React from "react";
 import library_data from "../../db.json";
+import { Box, Image } from "@chakra-ui/react";
 
 const Library = () => {
-    let librarydata = library_data.library;
+  let librarydata = library_data.library;
   return (
-    <div>{librarydata.map((el)=>{
-        return (
-            <img src={el.image} alt="" />
-        )
-    })}</div>
-  )
-}
+    <Box w={"90%"} m={"auto"}>
+      {librarydata.map((el) => {
+        return <Image src={el.image} alt="" />;
+      })}
+    </Box>
+  );
+};
 
-export default Library
+export default Library;

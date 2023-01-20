@@ -1,23 +1,28 @@
 import React from "react";
 import dipersbanner_data from "../../db.json";
 import dipers_data from "../../db.json";
+import { Box, Grid, GridItem, Image } from "@chakra-ui/react";
 
 const Dipers = () => {
   let dipersbannerdata = dipersbanner_data.dipers_banner;
   let dipersdata = dipers_data.dipers;
   return (
-    <div>
-      <div>
+    <Box w={"90%"} m={"auto"}>
+      <Box>
         {dipersbannerdata.map((el) => {
-          return <img src={el.image} alt="" />;
+          return <Image src={el.image} alt="" />;
         })}
-      </div>
-      <div>
+      </Box>
+      <Grid templateColumns="repeat(7, 1fr)">
         {dipersdata.map((elem) => {
-          return <img src={elem.image} alt="" />;
+          return (
+            <GridItem>
+              <Image src={elem.image} alt="" />
+            </GridItem>
+          );
         })}
-      </div>
-    </div>
+      </Grid>
+    </Box>
   );
 };
 

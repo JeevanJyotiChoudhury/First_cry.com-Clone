@@ -1,17 +1,16 @@
-import React from 'react'
+import React from "react";
 import gear_activity_data from "../../db.json";
+import { Box, Image } from "@chakra-ui/react";
 
 const Gearactivity = () => {
-    let gearactivitydata = gear_activity_data.gear_activity;
+  let gearactivitydata = gear_activity_data.gear_activity;
   return (
-    <div>
-        {gearactivitydata.map((el)=>{
-        return (
-            <img src={el.image} alt="" />
-        )
-    })}
-    </div>
-  )
-}
+    <Box w={"90%"} m={"auto"}>
+      {gearactivitydata.map((el) => {
+        return <Image src={el.image} alt="" />;
+      })}
+    </Box>
+  );
+};
 
-export default Gearactivity
+export default Gearactivity;

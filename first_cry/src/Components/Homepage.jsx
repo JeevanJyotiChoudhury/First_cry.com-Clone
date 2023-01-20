@@ -29,7 +29,7 @@ const Homepage = () => {
       <Premiumboutiques />
       <Colorshade />
       <Styleparade />
-      {/* <Brands />
+      <Brands />
       <Occasion />
       <Dailyessentials />
       <Dipers />
@@ -40,7 +40,7 @@ const Homepage = () => {
       <Babyaccess />
       <Library />
       <Babycare />
-      <Moms/> */}
+      <Moms/>
       <Footer />
     </div>
   );
