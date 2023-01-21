@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import allproducts_data from "../productpage.json";
 import {
   Box,
@@ -17,21 +17,131 @@ import { Link } from "react-router-dom";
 
 const Allproduct = () => {
   let allproductsdata = allproducts_data.kids;
+  const[data,setData] = useState(allproductsdata)
+  const[sortData,setSortData] = useState(allproductsdata)
+  const[filterData,setFilterData] = useState(allproductsdata)
+  function handlechange(e){
+    if(e.target.value=="LTH"){
+        let sortedData=[...sortData]
+        sortedData.sort((a,b)=>(+a.price) - (+b.price))
+        setData(sortedData)
+    }
+    if(e.target.value=="HTL"){
+      let sortedData=[...sortData]
+      sortedData.sort((a,b)=>(+b.price) - (+a.price))
+      setData(sortedData)
+  }
+  }
+  function handleRating(e){
+    if(e.target.value=="LTH"){
+        let sortedData=[...sortData]
+        sortedData.sort((a,b)=>(+a.rating) - (+b.rating))
+        setData(sortedData)
+    }
+    if(e.target.value=="HTL"){
+      let sortedData=[...sortData]
+      sortedData.sort((a,b)=>(+b.rating) - (+a.rating))
+      setData(sortedData)
+  }
+  }
+
+
+
+  const handleFilter = (e) => {
+    console.log(e.target.value)
+    if (e.target.value === "I Bears") {
+      let res = filterData.filter((item) => item.brand === "I Bears");
+      setData([...res]);
+    }
+    if (e.target.value === "Carter's") {
+      let res = filterData.filter((item) => item.brand === "Carter's");
+      setData([...res]);
+    }
+    if (e.target.value === "ToffyHouse") {
+      let res = filterData.filter((item) => item.brand === "ToffyHouse");
+      setData([...res]);
+    }
+    if (e.target.value === "Spunkies") {
+      let res = filterData.filter((item) => item.brand === "Spunkies");
+      setData([...res]);
+    }
+    if (e.target.value === "Babyhug") {
+      let res = filterData.filter((item) => item.brand === "Babyhug");
+      setData([...res]);
+    }
+    if (e.target.value === "Pine") {
+      let res = filterData.filter((item) => item.brand === "Pine");
+      setData([...res]);
+    }
+    if (e.target.value === "Kookie") {
+      let res = filterData.filter((item) => item.brand === "Kookie");
+      setData([...res]);
+    }
+    if (e.target.value === "Babyoye") {
+      let res = filterData.filter((item) => item.brand === "Babyoye");
+      setData([...res]);
+    }
+    if (e.target.value === "Multicolor") {
+      let res = filterData.filter((item) => item.color === "Multicolor");
+      setData([...res]);
+    }
+    if (e.target.value === "Sky") {
+      let res = filterData.filter((item) => item.color === "mattresses");
+      setData([...res]);
+    }
+    if (e.target.value === "Blue") {
+      let res = filterData.filter((item) => item.color === "Blue");
+      setData([...res]);
+    }
+    if (e.target.value === "White") {
+      let res = filterData.filter((item) => item.color === "White");
+      setData([...res]);
+    }
+    if (e.target.value === "Yellow") {
+      let res = filterData.filter((item) => item.color === "Yellow");
+      setData([...res]);
+    }
+    if (e.target.value === "Orange") {
+      let res = filterData.filter((item) => item.color === "Orange");
+      setData([...res]);
+    }
+    if (e.target.value === "Full sleeve") {
+      let res = filterData.filter((item) => item.sleeve === "Full sleeve");
+      setData([...res]);
+    }
+    if (e.target.value === "Half sleeve") {
+      let res = filterData.filter((item) => item.sleeve === "Half sleeve");
+      setData([...res]);
+    }
+    if (e.target.value === "Pyjama") {
+      let res = filterData.filter((item) => item.category === "Pyjama");
+      setData([...res]);
+    }
+    if (e.target.value === "Pyjama") {
+      let res = filterData.filter((item) => item.category === "Pyjama");
+      setData([...res]);
+    }
+  };
+
+
   return (
     <>
       <Flex justify={"space-between"} w={"90%"} m={"auto"} p={"15px 0"}>
-        <Box>TBF</Box>
+        <Box>
+        <Select placeholder="Sort By Rating" onChange={handleRating}>
+            <option value="LTH">Rating: Low to High</option>
+            <option value="HTL">Rating: High to Low</option>
+          </Select>
+        </Box>
         <Box w={"200px"}>
-          <Select placeholder="Select option">
+          <Select placeholder="Sort By Price" onChange={handlechange}>
             <option value="LTH">Price: Low to High</option>
             <option value="HTL">Price: High to Low</option>
-            <option value="RLTH">Rating: Low to High</option>
-            <option value="RHTL">Rating: High to Low</option>
           </Select>
         </Box>
       </Flex>
       <Flex>
-        <Box w={"20%"} border="1px solid red">
+        <Box w={"20%"} >
           <Box style={{ margin: "20px" }}>
             <Box className="brandfilter">
               <h1
@@ -45,28 +155,28 @@ const Allproduct = () => {
                 Brand
               </h1>
               <Stack spacing={[3]} direction={["column"]}>
-                <Checkbox size="md" colorScheme="red" value="Pine Kids">
+                <Checkbox size="md" colorScheme="red" value="I Bears" onChange={handleFilter}>
                 I Bears
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="Anthrilo">
+                <Checkbox size="md" colorScheme="red" value="Carter's" onChange={handleFilter}>
                 Carter's
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="Honeyhap">
+                <Checkbox size="md" colorScheme="red" value="ToffyHouse" onChange={handleFilter}>
                 ToffyHouse
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="Kookie Kids">
+                <Checkbox size="md" colorScheme="red" value="Spunkies" onChange={handleFilter}>
                 Spunkies
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="Angel & Rocket">
+                <Checkbox size="md" colorScheme="red" value="Babyhug" onChange={handleFilter}>
                 Babyhug
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="Angel & Rocket">
+                <Checkbox size="md" colorScheme="red" value="Pine" onChange={handleFilter}>
                 Pine
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="Angel & Rocket">
+                <Checkbox size="md" colorScheme="red" value="Kookie" onChange={handleFilter}>
                 Kookie
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="Angel & Rocket">
+                <Checkbox size="md" colorScheme="red" value="Babyoye" onChange={handleFilter}>
                 Babyoye
                 </Checkbox>
               </Stack>
@@ -83,22 +193,22 @@ const Allproduct = () => {
                 Color
               </h1>
               <Stack spacing={[1]} direction={["column"]}>
-                <Checkbox size="md" colorScheme="red" value="Boy">
+                <Checkbox size="md" colorScheme="red" value="Multicolor" onChange={handleFilter}>
                 Multicolor
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="Girl">
+                <Checkbox size="md" colorScheme="red" value="Sky" onChange={handleFilter}>
                 Sky
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="Unisex">
+                <Checkbox size="md" colorScheme="red" value="Blue" onChange={handleFilter}>
                 Blue
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="Unisex">
+                <Checkbox size="md" colorScheme="red" value="White" onChange={handleFilter}>
                 White
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="Unisex">
+                <Checkbox size="md" colorScheme="red" value="Yellow" onChange={handleFilter}>
                 Yellow
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="Unisex">
+                <Checkbox size="md" colorScheme="red" value="Orange" onChange={handleFilter}>
                 Orange
                 </Checkbox>
               </Stack>
@@ -115,19 +225,40 @@ const Allproduct = () => {
                 Sleeve
               </h1>
               <Stack spacing={[1]} direction={["column"]}>
-                <Checkbox size="md" colorScheme="red" value="0-10">
+                <Checkbox size="md" colorScheme="red" value="Full sleeve" onChange={handleFilter}>
                 Full sleeve
                 </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="10-20">
+                <Checkbox size="md" colorScheme="red" value="Half sleeve" onChange={handleFilter}>
                 Half sleeve
                 </Checkbox>
+              </Stack>
+            </Box>
+            <Box className="brandfilter">
+              <h1
+                style={{
+                  textAlign: "left",
+                  padding: "10px 0px 10px 20px",
+                  backgroundColor: "#eeeeee",
+                  marginBottom: "10px",
+                }}
+              >
+                Category
+              </h1>
+              <Stack spacing={[1]} direction={["column"]}>
+                <Checkbox size="md" colorScheme="red" value="pyjama" onChange={handleFilter}>
+                Pyjama
+                </Checkbox>
+                <Checkbox size="md" colorScheme="red" value="suit" onChange={handleFilter}>
+                Suit
+                </Checkbox>
+                
               </Stack>
             </Box>
           </Box>
         </Box>
         <Box w={"80%"} >
           <Grid templateColumns="repeat(3, 1fr)" gap={8}>
-            {allproductsdata.map((el) => {
+            {data.map((el) => {
               return (
                 <GridItem
                   p={"20px"}
@@ -150,6 +281,7 @@ const Allproduct = () => {
                         ₹{el.strike_price}
                       </Text>
                     </Flex>
+                    <Text>{el.rating} ⭐</Text>
                     <Flex w={"70%"} justify={"space-between"} >
                       <Box h="100%" w="20%" >
                       <Image
