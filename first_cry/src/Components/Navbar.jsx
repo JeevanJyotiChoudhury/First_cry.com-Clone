@@ -56,13 +56,13 @@ const Navbar = () => {
 
           <Box className={style_nb.cart}>
             <Box className={style_nb.childcartBox}>
-              <h3>countcart</h3>
+              {/* <h3>countcart</h3> */}
               <CgShoppingCart
                 className={style_nb.carticon}
-                // onClick={() => navigate("/cart")}
+                onClick={() => navigate("/cart")}
               />
             </Box>
-            <span>Cart</span>
+            <span onClick={() => navigate("/cart")}>Cart</span>
           </Box>
         </Box>
       </Box>
