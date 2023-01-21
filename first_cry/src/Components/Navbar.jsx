@@ -5,8 +5,10 @@ import { VscLocation } from "react-icons/vsc";
 import { AiOutlineHeart } from "react-icons/ai";
 import { CgShoppingCart } from "react-icons/cg";
 import { Box } from "@chakra-ui/react";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate()
   return (
     <Box>
       <Box className={style_nb.container}>
@@ -14,7 +16,7 @@ const Navbar = () => {
           <img
             src="https://cdn.fcglcdn.com/brainbees/images/n/fc_logo.png"
             alt="logo"
-            // onClick={() => navigate("/")}
+            onClick={() => navigate("/")}
           />
 
           <span className={style_nb.searchcontainer}>
@@ -43,7 +45,7 @@ const Navbar = () => {
             <span className={style_nb.lati}>|</span>
             <span>FirstCry Parenting</span>
             <span className={style_nb.lati}>|</span>
-            <span>Login / Register</span>
+            <Link to="/login"><span>Login / Register</span></Link>
           </Box>
           <span className={style_nb.lati}>|</span>
           <Box className={style_nb.shortlist}>

@@ -13,6 +13,7 @@ import {
   Select,
 } from "@chakra-ui/react";
 import { CgShoppingCart } from "react-icons/cg";
+import { Link } from "react-router-dom";
 
 const Allproduct = () => {
   let allproductsdata = allproducts_data.kids;
@@ -22,9 +23,10 @@ const Allproduct = () => {
         <Box>TBF</Box>
         <Box w={"200px"}>
           <Select placeholder="Select option">
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
+            <option value="LTH">Price: Low to High</option>
+            <option value="HTL">Price: High to Low</option>
+            <option value="RLTH">Rating: Low to High</option>
+            <option value="RHTL">Rating: High to Low</option>
           </Select>
         </Box>
       </Flex>
@@ -44,19 +46,28 @@ const Allproduct = () => {
               </h1>
               <Stack spacing={[3]} direction={["column"]}>
                 <Checkbox size="md" colorScheme="red" value="Pine Kids">
-                  Pine Kids
+                I Bears
                 </Checkbox>
                 <Checkbox size="md" colorScheme="red" value="Anthrilo">
-                  Anthrilo
+                Carter's
                 </Checkbox>
                 <Checkbox size="md" colorScheme="red" value="Honeyhap">
-                  Honeyhap
+                ToffyHouse
                 </Checkbox>
                 <Checkbox size="md" colorScheme="red" value="Kookie Kids">
-                  Kookie Kids
+                Spunkies
                 </Checkbox>
                 <Checkbox size="md" colorScheme="red" value="Angel & Rocket">
-                  Angel & Rocket
+                Babyhug
+                </Checkbox>
+                <Checkbox size="md" colorScheme="red" value="Angel & Rocket">
+                Pine
+                </Checkbox>
+                <Checkbox size="md" colorScheme="red" value="Angel & Rocket">
+                Kookie
+                </Checkbox>
+                <Checkbox size="md" colorScheme="red" value="Angel & Rocket">
+                Babyoye
                 </Checkbox>
               </Stack>
             </Box>
@@ -73,13 +84,22 @@ const Allproduct = () => {
               </h1>
               <Stack spacing={[1]} direction={["column"]}>
                 <Checkbox size="md" colorScheme="red" value="Boy">
-                  Boy
+                Multicolor
                 </Checkbox>
                 <Checkbox size="md" colorScheme="red" value="Girl">
-                  Girl
+                Sky
                 </Checkbox>
                 <Checkbox size="md" colorScheme="red" value="Unisex">
-                  Unisex
+                Blue
+                </Checkbox>
+                <Checkbox size="md" colorScheme="red" value="Unisex">
+                White
+                </Checkbox>
+                <Checkbox size="md" colorScheme="red" value="Unisex">
+                Yellow
+                </Checkbox>
+                <Checkbox size="md" colorScheme="red" value="Unisex">
+                Orange
                 </Checkbox>
               </Stack>
             </Box>
@@ -96,25 +116,16 @@ const Allproduct = () => {
               </h1>
               <Stack spacing={[1]} direction={["column"]}>
                 <Checkbox size="md" colorScheme="red" value="0-10">
-                  Upto 10%
+                Full sleeve
                 </Checkbox>
                 <Checkbox size="md" colorScheme="red" value="10-20">
-                  10% - 20%
-                </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="20-30">
-                  20% - 30%
-                </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="30-40">
-                  30% - 40%
-                </Checkbox>
-                <Checkbox size="md" colorScheme="red" value="40+">
-                  More than 40%
+                Half sleeve
                 </Checkbox>
               </Stack>
             </Box>
           </Box>
         </Box>
-        <Box w={"80%"} border="1px solid red">
+        <Box w={"80%"} >
           <Grid templateColumns="repeat(3, 1fr)" gap={8}>
             {allproductsdata.map((el) => {
               return (
@@ -139,13 +150,16 @@ const Allproduct = () => {
                         ₹{el.strike_price}
                       </Text>
                     </Flex>
-                    <Flex w={"50%"} justify={"space-between"}>
+                    <Flex w={"70%"} justify={"space-between"} >
+                      <Box h="100%" w="20%" >
                       <Image
                         src="https://cdn.fcglcdn.com/brainbees/images/club_flag_listing_desktop.png"
-                        w={"30px"}
+                        w={"100%"}
                       />
+                      </Box>
                       <Text>Club Price:{+el.price - 20}</Text>
                     </Flex>
+                    <Link to={`/products/${el.id}`}>
                     <Button
                       leftIcon={<CgShoppingCart />}
                       colorScheme="teal"
@@ -154,6 +168,7 @@ const Allproduct = () => {
                     >
                       Add to Cart
                     </Button>
+                    </Link>
                   </Box>
                 </GridItem>
               );

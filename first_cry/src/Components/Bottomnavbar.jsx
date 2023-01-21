@@ -50,7 +50,7 @@ const Bottomnavbar = () => {
               <MenuList>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/boys-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   BOY FASHION
