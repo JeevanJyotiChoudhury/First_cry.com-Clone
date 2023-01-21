@@ -10,7 +10,8 @@
       "color": "Sky",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.1"
+      "rating": "4.1",
+      "id":1
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/9109882a.webp",
@@ -22,7 +23,8 @@
       "color": "Sky",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.2"
+      "rating": "4.2",
+      "id":2
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/8691192a.webp",
@@ -34,7 +36,8 @@
       "color": "Multicolor",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.3"
+      "rating": "4.3",
+      "id":3
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/8686958a.webp",
@@ -46,7 +49,8 @@
       "color": "Multicolor",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.4"
+      "rating": "4.4",
+      "id":4
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/8691196a.webp",
@@ -58,7 +62,8 @@
       "color": "Multicolor",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.5"
+      "rating": "4.5",
+      "id":5
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/8691261a.webp",
@@ -70,19 +75,21 @@
       "color": "Multicolor",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.6"
+      "rating": "4.6",
+      "id":6
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/9701802a.webp",
       "brand": "ToffyHouse",
-      "description": "Carter's 4-Piece Dinosaur 100% Snug Fit Cotton PJs - Multicolor",
+      "description": "ToffyHouse Full Sleeves Pyjama Set Text Print - Blue",
       "price": "503.1",
       "strike_price": "645",
       "category": "Pyjama",
-      "color": "Multicolor",
+      "color": "Blue",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.6"
+      "rating": "4.6",
+      "id":7
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/11583037a.webp",
@@ -94,7 +101,8 @@
       "color": "Blue",
       "sleeve": "Half sleeve",
       "neck": "Round",
-      "rating": "4.7"
+      "rating": "4.7",
+      "id":8
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/11583062a.webp",
@@ -106,7 +114,8 @@
       "color": "White",
       "sleeve": "Half sleeve",
       "neck": "Round",
-      "rating": "4.8"
+      "rating": "4.8",
+      "id":9
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/8686865a.webp",
@@ -118,7 +127,8 @@
       "color": "Blue",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.9"
+      "rating": "4.9",
+      "id":10
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/9255226a.webp",
@@ -130,7 +140,8 @@
       "color": "Multicolor",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "5.0"
+      "rating": "5.0",
+      "id":11
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/8689215a.webp",
@@ -142,7 +153,8 @@
       "color": "Blue",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.1"
+      "rating": "4.1",
+      "id":12
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/9437161a.webp",
@@ -154,19 +166,21 @@
       "color": "Blue",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.2"
+      "rating": "4.2",
+      "id":13
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/9726099a.webp",
       "brand": "ToffyHouse",
-      "description": "ToffyHouse Full Sleeves T-Shirt & Pajama Animal Print - Light Orange",
+      "description": "ToffyHouse Full Sleeves T-Shirt & Pajama Animal Print - Orange",
       "price": "492.9",
       "strike_price": "795",
       "category": "Suit",
-      "color": "Light Orange",
+      "color": "Orange",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.3"
+      "rating": "4.3",
+      "id":14
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/9713773a.webp",
@@ -178,7 +192,8 @@
       "color": "Orange",
       "sleeve": "Half sleeve",
       "neck": "Round",
-      "rating": "4.4"
+      "rating": "4.4",
+      "id":15
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/8551890a.webp",
@@ -190,7 +205,8 @@
       "color": "Orange",
       "sleeve": "Half sleeve",
       "neck": "Round",
-      "rating": "4.5"
+      "rating": "4.5",
+      "id":16
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/8738437a.webp",
@@ -202,7 +218,8 @@
       "color": "Yellow",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.6"
+      "rating": "4.6",
+      "id":17
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/9701688a.webp",
@@ -214,7 +231,8 @@
       "color": "Blue",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.7"
+      "rating": "4.7",
+      "id":18
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/8691279a.webp",
@@ -226,7 +244,8 @@
       "color": "Multicolor",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "4.8"
+      "rating": "4.8",
+      "id":19
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/8980784a.webp",
@@ -238,7 +257,8 @@
       "color": "Yellow",
       "sleeve": "Half sleeve",
       "neck": "Round",
-      "rating": "4.9"
+      "rating": "4.9",
+      "id":20
     },
     {
       "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/9982297a.webp",
@@ -250,7 +270,8 @@
       "color": "Black",
       "sleeve": "Full sleeve",
       "neck": "Round",
-      "rating": "5.0"
+      "rating": "5.0",
+      "id":21
     }
   ]
 }

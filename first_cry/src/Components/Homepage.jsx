@@ -23,8 +23,6 @@ import Moms from "./Homepagecomponents/Moms";
 const Homepage = () => {
   return (
     <div>
-      <Navbar />
-      <Bottomnavbar />
       <Topslider />
       <Premiumboutiques />
       <Colorshade />
@@ -41,7 +39,7 @@ const Homepage = () => {
       <Library />
       <Babycare />
       <Moms/>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
