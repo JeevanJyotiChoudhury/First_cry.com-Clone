@@ -16,7 +16,7 @@ const Brands = () => {
       <Grid templateColumns="repeat(8, 1fr)">
         {banddata.map((elem) => {
           return (
-            <GridItem>
+            <GridItem _hover={{cursor:"pointer"}}>
               <Image src={elem.image} alt="" />
             </GridItem>
           );

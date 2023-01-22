@@ -16,7 +16,7 @@ const Colorshade = () => {
       <Grid templateColumns="repeat(4, 1fr)">
         {shadedata.map((elem) => {
           return (
-            <GridItem>
+            <GridItem _hover={{cursor:"pointer"}}>
               <Image src={elem.image} alt="" />
             </GridItem>
           );

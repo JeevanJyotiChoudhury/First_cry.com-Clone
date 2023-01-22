@@ -16,7 +16,7 @@ const Dipers = () => {
       <Grid templateColumns="repeat(7, 1fr)">
         {dipersdata.map((elem) => {
           return (
-            <GridItem>
+            <GridItem _hover={{cursor:"pointer"}}>
               <Image src={elem.image} alt="" />
             </GridItem>
           );

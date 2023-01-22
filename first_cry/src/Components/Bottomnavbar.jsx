@@ -1,7 +1,6 @@
 import React from "react";
 import {
   Box,
-  Heading,
   HStack,
   Image,
   Menu,
@@ -9,7 +8,6 @@ import {
   MenuItem,
   MenuList,
   Button,
-  Input,
 } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import { AiOutlineUser } from "react-icons/ai";
@@ -18,7 +16,6 @@ import { SlHandbag } from "react-icons/sl";
 import { useNavigate } from "react-router-dom";
 
 const Bottomnavbar = () => {
-
   let navigate = useNavigate();
   const handleNavigation = (path) => {
     navigate(path);
@@ -28,14 +25,12 @@ const Bottomnavbar = () => {
       style={{
         display: "flex",
         backgroundColor: "rgb(254,221,0)",
-        width:"100%",
-        justifyContent:"space-around",
-        marginTop:"17px"
+        width: "100%",
+        justifyContent: "space-around",
+        marginTop: "17px",
       }}
     >
-      {/* <Box bg='rgb(254,221,0)'> */}
-      {/* style={{ width: "80%" }} */}
-      <div >
+      <div>
         <HStack>
           <Box>
             <Menu>
@@ -57,7 +52,7 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/girls-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -65,7 +60,7 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/Footwear");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -73,7 +68,7 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/boys-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -81,7 +76,7 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/boys-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -89,7 +84,7 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/boys-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -97,7 +92,7 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/boys-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -105,7 +100,7 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/boys-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -113,14 +108,14 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/boys-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   BOUTIQUES
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/boys-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -128,7 +123,7 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/boys-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -152,7 +147,7 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/girls-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -160,7 +155,7 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/girls-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -168,63 +163,63 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/girls-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   Ethnic Wear
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/girls-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   Party Wear NEW
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/girls-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   Onesies & Rompers
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/girls-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   Pajamas & Leggings
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/girls-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   Nightwear
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/girls-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   Jumpsuits & Dungarees
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/girls-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   Athleisure & Sportswear
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/girls-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   Shorts & Skirts
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/girls-clothes");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -248,14 +243,14 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/Footwear");
+                    handleNavigation("/products");
                   }}
                 >
                   Casual Shoes
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/Footwear");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -263,7 +258,7 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/Footwear");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}
@@ -271,21 +266,21 @@ const Bottomnavbar = () => {
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/Footwear");
+                    handleNavigation("/products");
                   }}
                 >
                   Bellies & Peep Toes
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/Footwear");
+                    handleNavigation("/products");
                   }}
                 >
                   Formal & Party Wear
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
-                    handleNavigation("/products/Footwear");
+                    handleNavigation("/products");
                   }}
                 >
                   {" "}

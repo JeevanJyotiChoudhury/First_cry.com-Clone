@@ -4,6 +4,7 @@ import "./App.css";
 import Allproduct from "./Components/Allproduct";
 import Bottomnavbar from "./Components/Bottomnavbar";
 import Cart from "./Components/Cart";
+import Checkout from "./Components/Checkout";
 import Footer from "./Components/Footer";
 import Homepage from "./Components/Homepage";
 import Login from "./Components/Login";
@@ -21,6 +22,7 @@ function App() {
         <Route path="/login" element={<Login />}/> 
         <Route path="/register" element={<Register />}/> 
         <Route path="/cart" element={<Cart />}/> 
+        <Route path="/checkout" element={<Checkout />}/> 
         <Route path="/products" element={<Allproduct />}/>
         <Route path="/products/:id" element={<Singleproduct />}/>
       </Routes>

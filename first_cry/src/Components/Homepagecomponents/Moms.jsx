@@ -5,7 +5,7 @@ import { Box, Image } from "@chakra-ui/react";
 const Moms = () => {
   let momsdata = moms_data.moms;
   return (
-    <Box w={"90%"} m={"auto"}>
+    <Box w={"90%"} m={"auto"} _hover={{cursor:"pointer"}}>
       {momsdata.map((el) => {
         return <Image src={el.image} alt="" />;
       })}

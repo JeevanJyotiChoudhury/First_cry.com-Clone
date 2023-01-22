@@ -16,7 +16,7 @@ const Occasion = () => {
       <Grid templateColumns="repeat(3, 1fr)">
         {occasiondata.map((elem) => {
           return (
-            <GridItem>
+            <GridItem _hover={{cursor:"pointer"}}>
               <Image src={elem.image} alt="" />
             </GridItem>
           );

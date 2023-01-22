@@ -20,6 +20,7 @@ const Register = () => {
     }
     registeredUsersArray.push(userDetails)
     localStorage.setItem("registeredDetails",JSON.stringify(registeredUsersArray))
+    navigate("/login")
   }
   return (
     <div
