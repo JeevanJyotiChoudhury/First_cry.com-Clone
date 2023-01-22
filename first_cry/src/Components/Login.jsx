@@ -4,7 +4,7 @@ import style from "./Styles/login.module.css";
 
 const Login = () => {
   let loginUsers = JSON.parse(localStorage.getItem("registeredDetails"));
-
+  const [logins,setLogins] = useState(loginUsers)
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -20,11 +20,10 @@ const Login = () => {
     const email = emailRef.current.value;
     const password = passwordRef.current.value;
     console.log(email, password);
-    for (let i = 0; i < loginUsers.length; i++) {
-      if (loginUsers[i].email == email && loginUsers[i].password == password) {
-        navigate("/cart");
+    for (let i = 0; i < logins.length; i++) {
+      if (logins[i].email == email && logins[i].password == password) {
+        navigate("/");
       } else {
-        alert("Need to login first!!")
         navigate("/");
       }
     }

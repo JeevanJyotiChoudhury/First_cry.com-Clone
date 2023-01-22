@@ -8,7 +8,7 @@ const Styleparade = () => {
   let paradedata = parade_data.style_parade;
   return (
     <Box w={"90%"} m={"auto"}>
-      <Box>
+      <Box _hover={{cursor:"pointer"}}>
         {paradebannerdata.map((el) => {
           return <Image src={el.image} alt="" />;
         })}
@@ -16,7 +16,7 @@ const Styleparade = () => {
       <Grid templateColumns="repeat(6, 1fr)">
         {paradedata.map((elem) => {
           return (
-            <GridItem>
+            <GridItem _hover={{cursor:"pointer"}}>
               <Image src={elem.image} alt="" />
             </GridItem>
           );

@@ -9,7 +9,7 @@ const Babycare = () => {
       <Grid templateColumns="repeat(5, 1fr)">
         {babycaredata.map((el) => {
           return (
-            <GridItem>
+            <GridItem _hover={{cursor:"pointer"}}>
               <Image src={el.image} alt="" />
             </GridItem>
           );

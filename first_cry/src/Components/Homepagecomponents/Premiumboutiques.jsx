@@ -24,7 +24,7 @@ const Premiumboutiques = () => {
         <Grid templateColumns="repeat(3, 1fr)" gap={5} w={"90%"} m={"auto"}>
           {boutiquedata.map((el) => {
             return (
-              <GridItem>
+              <GridItem _hover={{cursor:"pointer"}}>
                 <Box>
                   <Image src={el.image} alt="" />
                 </Box>

@@ -5,7 +5,7 @@ import { Box, Grid, GridItem, Image } from "@chakra-ui/react";
 const Toys = () => {
   let toydata = toy_data.toys;
   return (
-    <Box w={"90%"} m={"auto"}>
+    <Box w={"90%"} m={"auto"} _hover={{cursor:"pointer"}}>
       {toydata.map((el) => {
         return <Image src={el.image} alt="" />;
       })}

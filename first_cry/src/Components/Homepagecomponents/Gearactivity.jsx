@@ -5,7 +5,7 @@ import { Box, Image } from "@chakra-ui/react";
 const Gearactivity = () => {
   let gearactivitydata = gear_activity_data.gear_activity;
   return (
-    <Box w={"90%"} m={"auto"}>
+    <Box w={"90%"} m={"auto"} _hover={{cursor:"pointer"}}>
       {gearactivitydata.map((el) => {
         return <Image src={el.image} alt="" />;
       })}

@@ -9,7 +9,7 @@ const Babyaccess = () => {
       <Grid templateColumns="repeat(6, 1fr)">
         {babyaccessdata.map((el) => {
           return (
-            <GridItem>
+            <GridItem _hover={{cursor:"pointer"}}>
               <Image src={el.image} alt="" />
             </GridItem>
           );

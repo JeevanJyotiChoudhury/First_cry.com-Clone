@@ -16,7 +16,7 @@ const Bath = () => {
       <Grid templateColumns="repeat(7, 1fr)">
         {bathdata.map((elem) => {
           return (
-            <GridItem>
+            <GridItem _hover={{cursor:"pointer"}}>
               <Image src={elem.image} alt="" />
             </GridItem>
           );
