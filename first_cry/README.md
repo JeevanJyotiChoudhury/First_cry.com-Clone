@@ -2,7 +2,7 @@
 
 First-cry.com clone deployed link :- https://unique-tapioca-ac318c.netlify.app/
 
-I have cloned this projrcy in the construct week of Unit-4. I have tried to implement as many functionality as possible within the 5 days.
+I have cloned this projrcy in the construct week of Unit-4. I have tried to implement as many functionality as possible within the 5 days. The tech-stacks I have used are react and for css I have used Chakra UI.
 
 About: It is the one-stop shopping website for the babies, kids and also moms. Here you can find products related to their day-to-day needs. Staring from garments, toys and fooding also. Also there are some accessories available.
 
